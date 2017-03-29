@@ -61,6 +61,10 @@ module.exports = {
 		// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md
 		"react/jsx-space-before-closing": ["error"],
 
+		// don't waste half a day debugging because you decided to use an array index to key a list
+		// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-array-index-key.md
+		"react/no-array-index-key": ["error"],
+
 		// don't write invalid aria props
 		// https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/aria-props.md
 		"jsx-a11y/aria-props": ["error"],
