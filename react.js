@@ -20,7 +20,13 @@ module.exports = {
 
 		// don't reference this.props or this.state from within a setState call,
 		// what are you some kind of maniac?!?
+		// https://medium.freecodecamp.org/functional-setstate-is-the-future-of-react-374f30401b6b
 		"react-functional-set-state/no-this-state-props": ["error"],
+
+		// don't go creating all kinds of anonymous functions in render methods,
+		// unless they're refs
+		// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-bind.md
+		"react/jsx-no-bind": ["error", { "ignoreRefs": true }],
 
 		// don't write components like a n00b
 		// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md
