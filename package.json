@@ -27,7 +27,6 @@
     "eslint-plugin-mocha": "5.x",
     "eslint-plugin-prettier": "3.x",
     "eslint-plugin-react": "7.x",
-    "eslint-plugin-react-functional-set-state": "1.x",
-    "prettier": "1.x"
+    "eslint-plugin-react-functional-set-state": "1.x"
   }
 }
