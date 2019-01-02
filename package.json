@@ -15,7 +15,9 @@
     "civicsource"
   ],
   "peerDependencies": {
-    "eslint": "5.x",
+    "eslint": "5.x"
+  },
+  "devDependencies": {
     "prettier": "1.x"
   },
   "dependencies": {
