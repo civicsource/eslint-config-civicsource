@@ -16,22 +16,22 @@
   ],
   "dependencies": {
     "babel-eslint": "10.x",
-    "eslint-config-prettier": "4.x",
+    "eslint-config-prettier": "6.x",
     "eslint-plugin-filenames": "1.x",
     "eslint-plugin-import": "2.x",
     "eslint-plugin-jest": "22.x",
     "eslint-plugin-jsx-a11y": "6.x",
-    "eslint-plugin-mocha": "5.x",
+    "eslint-plugin-mocha": "6.x",
     "eslint-plugin-prettier": "3.x",
     "eslint-plugin-react": "7.x",
     "eslint-plugin-react-functional-set-state": "1.x",
     "eslint-plugin-react-hooks": "1.x"
   },
   "peerDependencies": {
-    "eslint": "5.x"
+    "eslint": "6.x"
   },
   "devDependencies": {
-    "eslint": "^5.12.1",
-    "prettier": "^1.16.4"
+    "eslint": "^6.0.1",
+    "prettier": "^1.18.2"
   }
 }
