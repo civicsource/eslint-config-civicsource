@@ -7,6 +7,12 @@
 ## Install
 
 ```
+yarn add eslint-config-civicsource --dev
+```
+
+or
+
+```
 npm install eslint-config-civicsource --save-dev
 ```
 
